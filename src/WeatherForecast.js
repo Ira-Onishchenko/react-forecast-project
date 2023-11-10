@@ -3,22 +3,22 @@ import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecast.css";
 import axios from "axios";
 
-export default function WeatherForecast() {
+export default function WeatherForecast(props) {
   function handleResponse(response) {
     console.log(response.data);
   }
 
-  let apiKey = "27679230cd03168cdbd56f034219d4ca";
-  let longitude = 40.7;
-  let latitude = 74;
-  let apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+  let apiKey = "535cacbb3f8a0df0aeb4790235b9541f";
+  let longitude = props.coordinates.lon;
+  let latitude = props.coordinates.lat;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude={part}&appid=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(handleResponse);
 
   return (
     <div className="WeatherForecast">
       <div className="row">
-        <div classNmae="col">
+        <div className="col">
           <div className="WeatherForecast-day">Thu</div>
           <br />
           <WeatherIcon code="01d" size={36} />
