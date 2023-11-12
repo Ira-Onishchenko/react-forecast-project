@@ -8,7 +8,11 @@ export default function App() {
         <Weather defaultCity="Paris" />
         <footer>
           This project was coded by Ira Onishchenko and is {""}
-          <a href="https://github.com/Ira-Onishchenko/portfolio-project">
+          <a
+            href="https://github.com/Ira-Onishchenko/portfolio-project"
+            target="blanc"
+            rel="noopener noreferrer"
+          >
             open-sourced on GitHub
           </a>
         </footer>
