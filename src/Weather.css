@@ -53,7 +53,7 @@
   color: #a2a0a5;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 50px;
     text-align: center;
