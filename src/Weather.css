@@ -52,3 +52,28 @@
   margin-left: 215px;
   color: #a2a0a5;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .form-control {
+    text-align: center;
+  }
+  .btn {
+    font-size: 12px;
+    text-align: right;
+    padding: 10px 50px 10px 15px;
+    margin: 10px 0 10px 170px;
+  }
+  .wind {
+    text-align: right;
+    margin-top: -40px;
+  }
+  .humidity {
+    margin-top: -25px;
+    margin-right: 8px;
+    text-align: right;
+  }
+}

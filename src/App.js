@@ -9,7 +9,7 @@ export default function App() {
         <footer>
           This project was coded by Ira Onishchenko and is {""}
           <a
-            href="https://github.com/Ira-Onishchenko/react-forecast-project"
+            href="https://github.com/Ira-Onishchenko/react-forecast-projectnnn"
             target="blanc"
             rel="noopener noreferrer"
           >
