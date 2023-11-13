@@ -20,6 +20,10 @@
   color: #b5b0e2;
 }
 
+.Weather canvas {
+  margin-top: -50px;
+}
+
 .Weather .temperature {
   font-size: 55px;
   color: black;
